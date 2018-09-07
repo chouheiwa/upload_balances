@@ -226,6 +226,8 @@ namespace graphene { namespace upload_balances {
         return;
     }
     
+    
+    
     void upload_balances::start_schedule() {
         fc::time_point now = fc::time_point::now();
         
